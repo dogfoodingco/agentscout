@@ -14,7 +14,7 @@ import { homedir } from "node:os";
 import bundledCatalog from "./tools.json" with { type: "json" };
 
 const CATALOG_URL =
-  "https://raw.githubusercontent.com/implicit-labs/agentscout/main/src/catalog/tools.json";
+  "https://raw.githubusercontent.com/dogfoodingco/agentscout/main/src/catalog/tools.json";
 const CACHE_DIR = join(homedir(), ".agentscout");
 const CACHE_FILE = join(CACHE_DIR, "catalog-cache.json");
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
